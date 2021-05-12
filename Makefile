@@ -4,7 +4,7 @@ NAME           := rtsp_media_server
 
 all: docker
 
-docker : buildinfo 
+docker : 
 	docker build -f ${DOCKERFILE} -t ${NAME} .
 
 push : docker 
