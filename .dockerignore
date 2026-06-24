@@ -1,0 +1,21 @@
+# Keep the build context small — videos are mounted at runtime, not baked in.
+videos/
+*.mp4
+
+# VCS and project meta
+.git/
+.gitignore
+.dockerignore
+*.md
+LICENSE
+NOTICE
+
+# Logs and local env
+*.log
+.env
+*.local
+
+# Editor / OS cruft
+.DS_Store
+.idea/
+.vscode/

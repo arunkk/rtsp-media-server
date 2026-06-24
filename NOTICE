@@ -1,0 +1,17 @@
+rtsp-media-server
+Copyright 2021 Arun Krishnamurthy
+
+This product includes software developed as part of the rtsp-media-server
+project, licensed under the Apache License, Version 2.0.
+
+This product bundles, at container build time, the following third-party
+software, which is downloaded and run by the Docker image but not distributed
+in this source repository:
+
+  - rtsp-simple-server (https://github.com/aler9/rtsp-simple-server),
+    licensed under the MIT License. Now developed as MediaMTX
+    (https://github.com/bluenviron/mediamtx).
+  - FFmpeg (https://ffmpeg.org/), installed via the base image's package
+    manager, licensed under the LGPL/GPL.
+
+The licenses of these components are the property of their respective authors.

@@ -1,0 +1,18 @@
+# Video files (large; mount your own at runtime). Keep the sample.
+videos/*
+!videos/.gitkeep
+!videos/sample.mp4
+
+# rtsp-simple-server runtime logs
+rtsp-simple-server.log
+*.log
+
+# Local env / secrets
+.env
+*.local
+
+# Editor / OS cruft
+.DS_Store
+.idea/
+.vscode/
+*.swp
