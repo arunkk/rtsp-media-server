@@ -2,6 +2,12 @@
 
 > Stream local video files as on-demand RTSP camera feeds.
 
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+[![Docker](https://img.shields.io/badge/docker-ready-2496ED?logo=docker&logoColor=white)](Dockerfile)
+[![rtsp-simple-server](https://img.shields.io/badge/rtsp--simple--server-v0.14.1-orange.svg)](https://github.com/aler9/rtsp-simple-server/tree/v0.14.1)
+[![FFmpeg](https://img.shields.io/badge/FFmpeg-powered-007808?logo=ffmpeg&logoColor=white)](https://ffmpeg.org/)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 `rtsp-media-server` turns a directory of `.mp4` files into virtual RTSP
 cameras. It wraps [rtsp-simple-server][rss] in a Docker image and uses
 [FFmpeg][ffmpeg] to publish a stream **only when a client connects** — no CPU
